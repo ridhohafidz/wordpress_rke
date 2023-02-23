@@ -1,0 +1,17 @@
+secretGenerator:
+- name: mysql-password
+  namespace: ridho-wp
+  literals:
+  - password=QW!@er34MYSQL
+- name: mysql-user
+  namespace: ridho-wp
+  literals:
+  - username=userwp
+- name: mysql-user-password
+  namespace: ridho-wp
+  literals:
+  - passworduser=QW!@er34MYSQL
+- name: mysql-database
+  namespace: ridho-wp
+  literals:
+  - database=multitenant_wp
